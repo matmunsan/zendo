@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  /* Font */
+  --font-display: 'Inter', 'sans-serif';
+  /* Colors */
+  --color-spring-wood-50: #f7f7f2;
+  --color-beryl-green-100: #e4e6c3;
+  --color-battleship-gray-400: #899878;
+  --color-mine-shaft-950: #222725;
+  --color-woodsmoke-950: #121113;
+}
+
+body {
+  @apply font-display;
+}
